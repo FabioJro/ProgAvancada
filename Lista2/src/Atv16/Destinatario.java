@@ -4,6 +4,14 @@ public class Destinatario extends Email {
 	
 	private int EmailDestinatario;
 	
+	public int getEmailDestinatario() {
+		return EmailDestinatario;
+	}
+
+	public void setEmailDestinatario(int emailDestinatario) {
+		EmailDestinatario = emailDestinatario;
+	}
+
 	private Destinatario Buscar() {
 		Destinatario dest = new Destinatario();
 		return dest;
