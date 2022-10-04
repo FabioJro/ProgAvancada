@@ -7,34 +7,56 @@ import java.util.List;
 public class Pedido {
 	
 	private Date dataPedido;
-	private boolean status;
-	private  BigDecimal valorTotal;
-	List<ItemPedido> itemPedido;
-	
-	public Date getDataPedido() {
-		return dataPedido;
-	}
-	public void setDataPedido(Date dataPedido) {
-		this.dataPedido = dataPedido;
-	}
-	public boolean isStatus() {
-		return status;
-	}
-	public void setStatus(boolean status) {
-		this.status = status;
-	}
-	public BigDecimal getValorTotal() {
-		return valorTotal;
-	}
-	public void setValorTotal(BigDecimal valorTotal) {
-		this.valorTotal = valorTotal;
-	}
-	public List<ItemPedido> getItemPedido() {
-		return itemPedido;
-	}
-	public void setItemPedido(List<ItemPedido> itemPedido) {
-		this.itemPedido = itemPedido;
-	}
+    private boolean status;
+    private PagamentoNfe pagamentoNfe;
+    private List<ItemPedido> itemPedidos;
+    private BigDecimal valorTotal;
+
+    
+    
+    public void statusPedido(){
+        System.out.println("Statos do pedido");
+    }
+
+    public List<ItemPedido> getItemPedidos() {
+        return itemPedidos;
+    }
+
+    public void setItemPedidos(List<ItemPedido> itemPedidos) {
+        this.itemPedidos = itemPedidos;
+    }
+
+    public Date getDataPedido() {
+        return dataPedido;
+    }
+
+    public void setDataPedido(Date dataPedido) {
+        this.dataPedido = dataPedido;
+    }
+
+    public boolean isStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
+    public BigDecimal getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(BigDecimal valorTotal) {
+        this.valorTotal = valorTotal;
+    }
+
+    public PagamentoNfe getPagamentoNfe() {
+        return pagamentoNfe;
+    }
+
+    public void setPagamentoNfe(PagamentoNfe pagamentoNfe) {
+        this.pagamentoNfe = pagamentoNfe;
+    }
 	
 	
 

@@ -3,6 +3,7 @@ package Atv18;
 public class PedidoDelivery extends Pedido {
 	
 	private Cliente cliente;
+	
 
 	public Cliente getCliente() {
 		return cliente;

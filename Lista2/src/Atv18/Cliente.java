@@ -1,6 +1,7 @@
 package Atv18;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class Cliente {
 
@@ -11,6 +12,15 @@ public class Cliente {
 	private BigDecimal salario;
 	private boolean status;
 	private String senha;
+	private List<PedidoDelivery> pedidoDelivery;
+
+	public List<PedidoDelivery> getPedidoDelivery() {
+		return pedidoDelivery;
+	}
+
+	public void setPedidoDelivery(List<PedidoDelivery> pedidoDelivery) {
+		this.pedidoDelivery = pedidoDelivery;
+	}
 
 	public String getNome() {
 		return nome;

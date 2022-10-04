@@ -3,7 +3,7 @@ package Atv18;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class PagamentoNFE {
+public class PagamentoNfe {
 	
 	private BigDecimal valor;
 	private Date dataPagamento;

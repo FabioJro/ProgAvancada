@@ -10,7 +10,16 @@ public class Endereco {
 	private String cidade;
 	private String bairro;
 	private Cliente cliente;
+	private Pessoa pessoa;
 	
+
+	public Pessoa getPessoa() {
+		return pessoa;
+	}
+
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
+	}
 
 	public Cliente getCliente() {
 		return cliente;
