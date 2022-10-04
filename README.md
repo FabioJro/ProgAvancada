@@ -1,6 +1,6 @@
 ## Sejam bem vindos!
 
-Os codigos criados são referentes as listas de exercicios d materia de Programação Avançada , turma do 4º periodo da Uninassau.
+Os codigos criados são referentes as listas de exercicios da materia de Programação Avançada , turma do 4º periodo da Uninassau.
 
 ## Listas
 
