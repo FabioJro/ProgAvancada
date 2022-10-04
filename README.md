@@ -6,4 +6,6 @@ Os codigos criados são referentes as listas de exercicios d materia de Programa
 
 Abaixo encontra-se drive com as listas no qual são representadas as questões resolvidas :
 
-https://drive.google.com/drive/folders/1vCPj4DBCKflu3Xh2dXqKN9sZFzW1MqOy?usp=sharing
+Exercicios 1> https://drive.google.com/file/d/1sRpzY43VcMPPE1-E9yoylwL_VOPJKTNC/view?usp=sharing
+
+Exercicio 2>https://drive.google.com/file/d/1GqaZH_CAiGcCB1uw-P4_8bHOXkaXVM_H/view?usp=sharing
