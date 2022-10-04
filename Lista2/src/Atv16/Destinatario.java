@@ -5,7 +5,9 @@ public class Destinatario extends Email {
 	private int EmailDestinatario;
 	
 	private Destinatario Buscar() {
-		return new Destinaraio();
+		Destinatario dest = new Destinatario();
+		return dest;
+		
 	}
 	
 	private void Adicionar() {

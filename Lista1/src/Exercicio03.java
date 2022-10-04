@@ -14,7 +14,8 @@ public class Exercicio03 {
 		
 		double salarioFinal = comissao+ salarioFixo;
 		
-		System.out.println("Seu salario final é :  R$"+salarioFinal);
+		System.out.println("Seu salario final :  R$"+salarioFinal);
+		scan.close();
 	}
 
 }

@@ -21,7 +21,7 @@ public class Exercicio05 {
 		for (int i = 0; i < 3; i++) {
 			System.out.println(numeros.get(i));
 		}
-
+		scan.close();
 	}
 
 }

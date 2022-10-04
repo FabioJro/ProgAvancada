@@ -7,9 +7,9 @@ public class Exercicio16 {
 		double PopA, PopB;
 		int Anos = 0;
 		do {
-			System.out.println("Informe a população da cidade A");
+			System.out.println("Informe a populaï¿½ï¿½o da cidade A");
 			PopA = scan.nextDouble();
-			System.out.println("Informe a população da cidade B");
+			System.out.println("Informe a populaï¿½ï¿½o da cidade B");
 			PopB = scan.nextDouble();
 
 			if (PopB < PopA) {
@@ -22,9 +22,10 @@ public class Exercicio16 {
 
 				}
 
-				System.out.println("A população A irá demorar " + Anos + " anos para ser maior que a população B");
+				System.out.println("A populaï¿½ï¿½o A irï¿½ demorar " + Anos + " anos para ser maior que a populaï¿½ï¿½o B");
 
 			}
 		} while (PopA > PopB);
+		scan.close();
 	}
 }

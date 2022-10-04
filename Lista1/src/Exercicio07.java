@@ -44,6 +44,7 @@ public class Exercicio07 {
 		System.out.println(cinco+"nota(s) de R$ 5,00");
 		System.out.println(dois+"nota(s) de R$ 2,00");
 		System.out.println(um+"nota(s) de R$ 1,00");
+		scan.close();
 
 	}
 }

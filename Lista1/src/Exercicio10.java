@@ -14,9 +14,9 @@ public class Exercicio10 {
 		Dias= ((Tempo%365)%30);
 		
 		System.out.println("Ano(os)"+ Anos);
-		System.out.println("Mês(es)"+ Meses);
+		System.out.println("Mes(es)"+ Meses);
 		System.out.println("Dia(as)"+ Dias);
-		
+		scan.close();
 		
 
 	}

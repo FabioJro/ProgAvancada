@@ -12,7 +12,7 @@ public class Exercicio09 {
 		SS = ((tempo%3600)%60);
 		
 		System.out.println("HH:MM:SS = "+HH+":"+MM+":"+SS);
-		
+		scan.close();
 
 	}
 }

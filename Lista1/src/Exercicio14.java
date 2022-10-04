@@ -14,6 +14,7 @@ public class Exercicio14 {
         	}
     		Numero++;
         }
+		scan.close();
 	}
 
 }

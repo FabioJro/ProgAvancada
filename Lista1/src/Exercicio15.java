@@ -18,7 +18,8 @@ public class Exercicio15 {
 			
 			System.out.println(fib(i));
 		}
-
+		scan.close();
 	}
+	
 
 }

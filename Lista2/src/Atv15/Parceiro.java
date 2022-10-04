@@ -1,14 +1,30 @@
 package Atv15;
 
-
+import java.util.List;
 
 public class Parceiro {
 	
 	private  String tipoPessoa;
 	private float desempenho;
-	private Fisica fisica;
-	private Juridica juridica;
+	private List<Fisica> fisica;
+	public List<Fisica> getFisica() {
+		return fisica;
+	}
+
+	public void setFisica(List<Fisica> fisica) {
+		this.fisica = fisica;
+	}
+
+	private List<Juridica> juridica;
 	
+	public List<Juridica> getJuridica() {
+		return juridica;
+	}
+
+	public void setJuridica(List<Juridica> juridica) {
+		this.juridica = juridica;
+	}
+
 	public void cadastrar() {
 		System.out.println("Parceiro foi cadastrado");
 	}
@@ -39,20 +55,6 @@ public class Parceiro {
 		this.desempenho = desempenho;
 	}
 
-	public Fisica getFisica() {
-		return fisica;
-	}
-
-	public void setFisica(Fisica fisica) {
-		this.fisica = fisica;
-	}
-
-	public Juridica getJuridica() {
-		return juridica;
-	}
-
-	public void setJuridica(Juridica juridica) {
-		this.juridica = juridica;
-	}
+	
 
 }

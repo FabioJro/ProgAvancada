@@ -16,7 +16,8 @@ public class Exercicio02 {
 	    double salario = horaTrab * recebimento;
 	    
 	    System.out.println("Numero "+numero);
-	    System.out.println("O seu salario é :  R$"+salario);
+	    System.out.println("O seu salario  :  R$"+salario);
+		scan.close();
 	}
 
 }

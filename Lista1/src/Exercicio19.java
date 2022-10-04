@@ -17,7 +17,8 @@ public class Exercicio19 {
 			salario += salario * 0.10;
 		}
 
-		System.out.format("Seu novo salario é "+ "%.2f", salario);
+		System.out.format("Seu novo salario ï¿½ "+ "%.2f", salario);
+		scan.close();
 	}
 
 }

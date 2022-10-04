@@ -15,7 +15,8 @@ public class Exercicio18 {
 		}
 		
 		System.out.println("Numero invertido "+ i);
-
+		scan.close();
 	}
+
 
 }

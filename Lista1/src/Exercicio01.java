@@ -14,6 +14,7 @@ public class Exercicio01 {
 		float media = (nota1+nota2)/2;
 		
 		System.out.println("Sua media e :"+ media);
+		scan.close();
 	}
 
 }

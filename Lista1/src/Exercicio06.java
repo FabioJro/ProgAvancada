@@ -14,6 +14,6 @@ public class Exercicio06 {
 	    
 	    System.out.format("Total de km/l :" +"%.2f", Total);
 	
-	
+		scan.close();
 	}
 }

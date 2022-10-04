@@ -28,8 +28,9 @@ public class Exercicio04 {
 
 		}
 		
-		System.out.println("O maior numero é : " +maior);
-		System.out.println("O menor numero é : " +menor);
+		System.out.println("O maior numero  : " +maior);
+		System.out.println("O menor numero  : " +menor);
+		scan.close();
 	}
 
 }

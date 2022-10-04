@@ -13,7 +13,7 @@ public class Exercicio12 {
 				Menu_vertebrado_2();
 				String Palavra3 = scan.next();
 				if (Palavra3.equalsIgnoreCase("Carnivoro")) {
-					System.out.println("Águia");
+					System.out.println("Aguia");
 				} else if (Palavra3.equalsIgnoreCase("Onivoro")) {
 					System.out.println("Pomba");
 				}
@@ -47,7 +47,9 @@ public class Exercicio12 {
 					System.out.println("Minhoca");
 				}
 
+				
 			}
+			scan.close();
 		}
 
 	}
@@ -74,7 +76,7 @@ public class Exercicio12 {
 		System.out.println("-----------------------------");
 		System.out.println("Escolha entre os itens abaixo");
 		System.out.println("Inseto");
-		System.out.println("Anelídeo");
+		System.out.println("Anelideo");
 		System.out.println("-----------------------------");
 
 	}
@@ -83,7 +85,7 @@ public class Exercicio12 {
 		System.out.println("-----------------------------");
 		System.out.println("Escolha entre os itens abaixo");
 		System.out.println("Carnivoro");
-		System.out.println("Onívoro");
+		System.out.println("Onivoro");
 		System.out.println("-----------------------------");
 
 	}
@@ -92,7 +94,7 @@ public class Exercicio12 {
 		System.out.println("-----------------------------");
 		System.out.println("Escolha entre os itens abaixo");
 		System.out.println("Herbivoro");
-		System.out.println("Onívoro");
+		System.out.println("Onivoro");
 		System.out.println("-----------------------------");
 
 	}
@@ -100,7 +102,7 @@ public class Exercicio12 {
 	public static void Menu_invertebrado_2() {
 		System.out.println("-----------------------------");
 		System.out.println("Escolha entre os itens abaixo");
-		System.out.println("Herbívoro");
+		System.out.println("Herbivoro");
 		System.out.println("Hematofago");
 		System.out.println("-----------------------------");
 

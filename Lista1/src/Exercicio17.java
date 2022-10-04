@@ -20,12 +20,13 @@ public class Exercicio17 {
 			
 			if (i%2==0) {
 			
-				System.out.println("O numero "+i+ " é par");
+				System.out.println("O numero "+i+ " ï¿½ par");
 				
 			}else {
-				System.out.println("O numero "+i+ " é impar");
+				System.out.println("O numero "+i+ " ï¿½ impar");
 			}
 		}
+		scan.close();
 	}
 
 }

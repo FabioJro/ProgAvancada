@@ -19,6 +19,7 @@ public class Exercicio20 {
 			case "I":
 				Renda_industrias(renda);
 			}
+			scan.close();
 	}
 
 	public static int Renda_industrias(int x) {
@@ -31,7 +32,7 @@ public class Exercicio20 {
 			
           return x-120;
 		}else return x;
-		  
+		
 	}
-
+	
 }

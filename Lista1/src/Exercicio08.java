@@ -42,6 +42,7 @@ public class Exercicio08 {
 		System.out.println("Aliquota :" + aliquota );
 		System.out.println("Imposto de renda:" + IR);
 		System.out.format("Renda liquida :" + RL);
+		scan.close();
 
 	}
 }

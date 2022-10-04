@@ -9,7 +9,16 @@ public class Fisica extends Pessoa {
 	private String rg;
 	private String genero;
 	private Date nasc;
+	private Parceiro parceiro;
 	
+
+	public Parceiro getParceiro() {
+		return parceiro;
+	}
+
+	public void setParceiro(Parceiro parceiro) {
+		this.parceiro = parceiro;
+	}
 
 	public String getCpf() {
 		return cpf;

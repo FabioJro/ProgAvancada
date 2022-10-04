@@ -18,7 +18,7 @@ public class Exercicio11 {
 			 System.out.println("O jogo durou " +Duracao+" hr");
 		 }
 		
-		 
+		 scan.close();
 	}
 
 }

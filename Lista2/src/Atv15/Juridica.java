@@ -8,7 +8,16 @@ public class Juridica extends Pessoa {
 	private String cnpj;
 	private String inscricaoEstadual;
 	private Date fundacao;
+	private Parceiro parceiro;
    
+	public Parceiro getParceiro() {
+		return parceiro;
+	}
+
+	public void setParceiro(Parceiro parceiro) {
+		this.parceiro = parceiro;
+	}
+
 	public String getCnpj() {
 		return cnpj;
 	}
