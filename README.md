@@ -1,6 +1,8 @@
-# ProgAvancada
+## Sejam bemvindos!
 
-Esta lista de exercicio é referente a materia de Programação Avançada , turma do 4º periodo da Uninassau.
+Os codigos criados são referentes as listas de exercicios d materia de Programação Avançada , turma do 4º periodo da Uninassau.
+
+## Listas
 
 Abaixo encontra-se drive com as listas no qual são representadas as questões resolvidas :
 
