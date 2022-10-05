@@ -1,0 +1,10 @@
+O que compõe a assinatura de um método? Exemplifique
+
+O que compóe são : visibilidade , retorno , parametro e exeções.
+Por exemplo :
+
+Public int fazerAlgo(int x){} , 
+
+No qual temos a informação que a visibilidade é publica e o tipo que ira ser retornado é um int. 
+
+No qual o seu parametro é uma variavel inteira chamada X e que não possui exeções.
